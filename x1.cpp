@@ -53,40 +53,9 @@ int MstWeight(vector<vector<int>> &graph)
     }
     return mstWeight;
 }
-int main()
-{
-    int n, m, q;
-    cin >> n >> m >> q;
-    vector<vector<int> > graph(n, vector<int>(n, 1));
-    for (int i = 0; i < m; i++)
-    {
-        int u, v, w;
-        cin >> u >> v >> w;
-        graph[u][v] = graph[v][u] = w;
-    }
-    for (int i = 0; i < q; i++)
-    {
-        int qtype;
-        cin >> qtype;
-        if (qtype == 1)
-        {
-            int u, v;
-            cin >> u >> v;
-            assignZero(graph, u, v);
-        }
-        else if (qtype == 2)
-        {
-            int u, v;
-            cin >> u >> v;
-            assignOriginal(graph, u, v);
-        }
-        else
-        {
-            cout << MstWeight(graph) << endl;
-        }
-    }
-    return 0;
+
+
+
+int main(){
+    
 }
-
-
-
