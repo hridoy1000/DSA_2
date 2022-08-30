@@ -1,0 +1,5 @@
+vector:	https://www.mygreatlearning.com/blog/vectors-in-c/
+queue:	https://www.geeksforgeeks.org/queue-cpp-stl/
+stack:	https://www.geeksforgeeks.org/stack-in-cpp-stl/
+map:	https://www.geeksforgeeks.org/map-associative-containers-the-c-standard-template-library-stl/
+set:	https://www.geeksforgeeks.org/set-in-cpp-stl/
